@@ -1,4 +1,5 @@
 
+/* Globla Styles */
 
 * {
     margin: 0;
@@ -6,25 +7,28 @@
     box-sizing: border-box;
 }
 
-.App {
-    width: 100vmax;
-    height: 100vh;
-    background: #8cc7d0;
+body {
+    background: #f8f8f8;
+    color: #29292e;
+  }
+
+  body, input, button, textarea {
+    font: 400 16px 'Roboto', sans-serif;
+  }
+
+/*Components Styles*/
+
+.home {
+    display: flex;
+    background-color:#8cc7d0;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    background: white;
-}
-
-#form {
-    grid-column: 1 / 2;
-    grid-row: auto; 
+#container {
+    display: flex;
+    background-color: #fff;
 }
 
 #result {
-    grid-column: 2 / 3;
-    grid-row: auto;
+    color: white;
+    background-color: #013e07;
 }

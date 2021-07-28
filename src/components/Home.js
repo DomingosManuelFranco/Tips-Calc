@@ -11,12 +11,14 @@ function Home() {
                         <label>Bill</label>
                         <input type="text" /><br />
                         <label htmlFor="">Select the Tips %</label><br />
-                        <input type="button" value="5%" className='btn' />
-                        <input type="button" value="10%" className='btn' />
-                        <input type="button" value="15%"  className='btn'/>
-                        <input type="button" value="25%" className='btn' />
-                        <input type="button" value="50%" className='btn' />
-                        <input type="button" value="custom" id='btn'/> <br />
+                        <div id='btns'>
+                            <input type="button" value="5%" className='btn' />
+                            <input type="button" value="10%" className='btn' />
+                            <input type="button" value="15%"  className='btn'/>
+                            <input type="button" value="25%" className='btn' />
+                            <input type="button" value="50%" className='btn' />
+                            <input type="button" value="custom" id='btn'/> <br />
+                        </div>
                         <label htmlFor="">Number of People: </label><br />
                         <input type="button" value="5" id='nPeople' />
                     </form>

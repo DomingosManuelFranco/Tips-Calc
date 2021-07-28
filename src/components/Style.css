@@ -1,20 +1,30 @@
 
 
-.App {
+* {
     margin: 0;
     padding: 0;
-    background-color: #8cc7d0;
     box-sizing: border-box;
+}
+
+.App {
+    width: 100vmax;
+    height: 100vh;
+    background: #8cc7d0;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    background: white;
 }
 
 #form {
-    grid-column: 1;
+    grid-column: 1 / 2;
+    grid-row: auto; 
+}
+
+#result {
+    grid-column: 2 / 3;
     grid-row: auto;
-    
 }

@@ -7,7 +7,7 @@ import ShowTips from './ShowTips';
 function Home() {
     return (
         <div className='home'>
-            <h1>Calculate the Tips!!!</h1>
+            
             <div id='container'>
                 <Form />
                 <ShowTips />

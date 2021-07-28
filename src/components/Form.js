@@ -18,7 +18,7 @@ function Form() {
                             <input type="button" value="custom" id='btn'/> <br />
                         </div>
                         <label htmlFor="">Number of People: </label><br />
-                        <input type="button" value="5" id='nPeople' />
+                        <input type="text" value="5" id='nPeople' />
                     </form>
                 </div>
         </div>

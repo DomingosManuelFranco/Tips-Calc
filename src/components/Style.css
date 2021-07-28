@@ -18,17 +18,39 @@ body {
 
 /*Components Styles*/
 
+.App {
+    background-color: #8cc7d0;
+}
+
 .home {
     display: flex;
-    background-color:#8cc7d0;
+    align-items:stretch;
 }
 
 #container {
     display: flex;
+    align-items: stretch;
+    width: 90%;
+    height: 50vh;
+    margin: 15px 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    text-align: justify;
     background-color: #fff;
 }
 
-#result {
+#form {
+    display: flex;
+    align-content: stretch;
     color: white;
+}
+
+#result {
+    display: flex;
+    align-content: stretch;
+    color: white;
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
     background-color: #013e07;
 }

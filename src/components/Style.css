@@ -1,4 +1,20 @@
 
+
 .App {
+    margin: 0;
+    padding: 0;
     background-color: #8cc7d0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#form {
+    grid-column: 1;
+    grid-row: auto;
+    
 }

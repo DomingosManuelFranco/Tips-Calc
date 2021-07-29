@@ -1,6 +1,11 @@
 
 /* Globla Styles */
 
+:root {
+  --dark-green: #4b783d;
+  --light-green: #51da16;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,9 +44,10 @@ body {
 }
 
 #form {
-    width: 30vw;
-    height: 30vmin;
-    color: white;
+  display: flex;
+  width: 30vw;
+  height: 30vmin;   
+  color: white;
 }
 
 #result {
@@ -54,7 +60,32 @@ body {
 }
 
 
+/*Components' Children*/
+.color {
+  color: var(--dark-green);
+}
 
+#btns {
+  
+}
+
+.btn {
+  display: inline-block;
+  order: 3;
+  padding:0.35em 1.2em;
+  border:0.1em solid #0c4401;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:800;
+  font-size: 1rem;
+  background-color: var(--dark-green);
+  color: #fff;
+  text-align:center;
+  transition: all 0.2s;
+}
 
 
 
@@ -88,5 +119,13 @@ body {
   @media all and (max-width: 500px) {
     .container {
       flex-direction: column;
+    }
+  }
+
+
+  @media all and (max-width:30em){
+     .btns {
+      display: block;
+      margin: 0.4em auto;
     }
   }

@@ -10,6 +10,7 @@ function ShowTips() {
 
                     <p>Total <br /><span>/ person</span></p>
                     <h1>$32.79</h1>
+                    <button>Reset</button>
                 </div>
         </div>
     )

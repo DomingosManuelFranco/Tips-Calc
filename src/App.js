@@ -1,5 +1,4 @@
 
-
 import Home from "./components/Home";
 import './components/Style.css';
 

@@ -1,14 +1,47 @@
 
-import { TextField } from '@material-ui/core';
+import { TextField, Button } from '@material-ui/core';
+import { makeStyles } from '@material-ui/styles';
 import React from 'react'
 
+const useStyles = makeStyles({
+    button: {
+
+    }
+})
+
 function Form() {
+    const classes = useStyles();
+
     return (
         <>
          <form >
              <label>Bill</label>
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-
+            <TextField label="Bill" variant="outlined" />
+            <Button 
+                variant="contained" color="primary">
+                5%
+            </Button>
+            <Button 
+                variant="contained" color="primary">
+                10%
+            </Button>
+            <Button 
+                variant="contained" color="primary">
+                15%
+            </Button>
+            <Button 
+                variant="contained" color="primary">
+                25%
+            </Button>
+            <Button 
+                variant="contained" color="primary">
+                50%
+            </Button>
+            <Button 
+                variant="contained" color="primary">
+                Custom
+            </Button>
+            
         </form>
         </>
     )

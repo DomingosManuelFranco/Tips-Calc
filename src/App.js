@@ -1,4 +1,5 @@
 
+import { CssBaseline } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import Home from "./components/Home";
 import './components/Style.css';
@@ -13,9 +14,10 @@ const useStyles = makeStyles({
 
 function App() {
   const classes = useStyles();
-  
+
   return (
     <div className={classes.root}>
+      <CssBaseline />
       <h1>Calculate the Tips!!!</h1>
       <Home />
     </div>

@@ -8,8 +8,20 @@ import ShowTips from './ShowTips';
 function Home() {
     return (
         <>
-          <Grid>
-              
+          <Grid
+            container
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+            >
+            <Grid 
+                item sm={6}
+                > 
+                <Form />
+            </Grid>
+            <Grid item sm={6}> 
+                <ShowTips />
+            </Grid>
           </Grid>  
         </>
     )

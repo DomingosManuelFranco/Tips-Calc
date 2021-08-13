@@ -6,14 +6,9 @@ import ShowTips from './ShowTips';
 
 function Home() {
     return (
-        <div className='home'>
+        <>
             
-            <div id='container'>
-                <Form />
-                <ShowTips />
-            </div>
-
-        </div>
+        </>
     )
 }
 

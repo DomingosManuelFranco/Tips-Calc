@@ -1,5 +1,5 @@
 
-/* Globla Styles */
+/* Globla Styles 
 
 :root {
   --dark-green: #4b783d;
@@ -22,7 +22,7 @@ body {
   }
 
   
-/*Components Styles*/
+/*Components Styles
 
 .App {
     background-color: #8cc7d0;
@@ -60,7 +60,7 @@ body {
 }
 
 
-/*Components' Children*/
+/*Components' Children
 .color {
   color: var(--dark-green);
 }
@@ -90,7 +90,7 @@ body {
 
 
 
-/* Medium screens */
+ Medium screens 
 @media all and (max-width: 800px) {
     .container {
         flex-flow: column wrap;
@@ -100,7 +100,7 @@ body {
     }
   }
   
-  /* Small screens */
+  /* Small screens 
   @media all and (max-width: 500px) {
     .container {
       flex-direction: column;
@@ -114,3 +114,5 @@ body {
       margin: 0.4em auto;
     }
   }
+
+  */

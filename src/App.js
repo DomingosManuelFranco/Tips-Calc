@@ -6,8 +6,11 @@ import './components/Style.css';
 
 const useStyles = makeStyles({
   root: {
+    position: 'absolute',
+    margin: 0,
+    padding:0,
     width: '100%',
-    minHeight: '90vh',
+    minHeight: '100%',
     backgroundColor: '#A7EFFA',
   }
 })

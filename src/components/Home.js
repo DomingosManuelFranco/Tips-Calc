@@ -15,11 +15,11 @@ function Home() {
             alignItems="center"
             >
             <Grid 
-                item sm={6}
+                item sm={5}
                 > 
                 <Form />
             </Grid>
-            <Grid item sm={6}> 
+            <Grid item sm={7}> 
                 <ShowTips />
             </Grid>
           </Grid>  
